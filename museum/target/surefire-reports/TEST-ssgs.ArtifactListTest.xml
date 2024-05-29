@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ssgs.ArtifactListTest" time="0.085" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ssgs.ArtifactListTest" time="0.111" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire5071023163436177630\surefirebooter10109516788849505073.jar C:\Users\user\AppData\Local\Temp\surefire5071023163436177630 2024-05-29T17-27-40_313-jvmRun1 surefire13396709418961711851tmp surefire_013724423007313532722tmp"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire11389844547222335839\surefirebooter2635025168944865916.jar C:\Users\user\AppData\Local\Temp\surefire11389844547222335839 2024-05-29T21-42-03_202-jvmRun1 surefire17388643597674697282tmp surefire_015354307835907457055tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="c:\Users\user\ssgs\museum\target\test-classes;c:\Users\user\ssgs\museum\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\user\.m2\repository\ssgs\authentication\1.0.0\authentication-1.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire5071023163436177630\surefirebooter10109516788849505073.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire11389844547222335839\surefirebooter2635025168944865916.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
@@ -56,19 +56,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testAddArtifactWithEmptyOrigin" classname="ssgs.ArtifactListTest" time="0.031"/>
-  <testcase name="testAddArtifactWithNullOrigin" classname="ssgs.ArtifactListTest" time="0.002"/>
+  <testcase name="testAddArtifactWithEmptyOrigin" classname="ssgs.ArtifactListTest" time="0.044"/>
+  <testcase name="testAddArtifactWithNullOrigin" classname="ssgs.ArtifactListTest" time="0.004"/>
   <testcase name="testAddArtifactWithNullName" classname="ssgs.ArtifactListTest" time="0.003"/>
-  <testcase name="testUpdateNonExistingArtifact" classname="ssgs.ArtifactListTest" time="0.002"/>
-  <testcase name="testAddDuplicateArtifact" classname="ssgs.ArtifactListTest" time="0.007"/>
+  <testcase name="testUpdateNonExistingArtifact" classname="ssgs.ArtifactListTest" time="0.004"/>
+  <testcase name="testAddDuplicateArtifact" classname="ssgs.ArtifactListTest" time="0.006"/>
   <testcase name="testGetById" classname="ssgs.ArtifactListTest" time="0.006"/>
   <testcase name="testAddArtifactWithEmptyName" classname="ssgs.ArtifactListTest" time="0.002"/>
-  <testcase name="testAddArtifactWithNullCreationPeriod" classname="ssgs.ArtifactListTest" time="0.001"/>
-  <testcase name="testAddNullArtifact" classname="ssgs.ArtifactListTest" time="0.002"/>
-  <testcase name="testAddAndGetAll" classname="ssgs.ArtifactListTest" time="0.004"/>
-  <testcase name="testDelete" classname="ssgs.ArtifactListTest" time="0.002"/>
-  <testcase name="testAddArtifactWithEmptyCreationPeriod" classname="ssgs.ArtifactListTest" time="0.001"/>
-  <testcase name="testUpdate" classname="ssgs.ArtifactListTest" time="0.003"/>
-  <testcase name="testDeleteNonExistingArtifact" classname="ssgs.ArtifactListTest" time="0.001"/>
+  <testcase name="testAddArtifactWithNullCreationPeriod" classname="ssgs.ArtifactListTest" time="0.002"/>
+  <testcase name="testAddNullArtifact" classname="ssgs.ArtifactListTest" time="0.001"/>
+  <testcase name="testAddAndGetAll" classname="ssgs.ArtifactListTest" time="0.005"/>
+  <testcase name="testDelete" classname="ssgs.ArtifactListTest" time="0.003"/>
+  <testcase name="testAddArtifactWithEmptyCreationPeriod" classname="ssgs.ArtifactListTest" time="0.003"/>
+  <testcase name="testUpdate" classname="ssgs.ArtifactListTest" time="0.004"/>
+  <testcase name="testDeleteNonExistingArtifact" classname="ssgs.ArtifactListTest" time="0.004"/>
   <testcase name="testAddArtifactWithEmptyId" classname="ssgs.ArtifactListTest" time="0.002"/>
 </testsuite>

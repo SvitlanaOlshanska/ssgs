@@ -1,4 +1,22 @@
-/target/
-*.log
+# Compiled class files
 *.class
-.DS Store
+# Log file
+*.log
+# File di configurazione IDE
+# VS Code
+.vscode/
+
+# JAR file
+*.jar
+# File di configurazione specifici del tuo ambiente
+*.sh
+
+# File temporanei
+*.tmp
+*.temp
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store

@@ -1,0 +1,3 @@
+1,statua,India,sconosciuto
+2,vaso,Francia,1650
+3,specchio,Inghilterra,1900

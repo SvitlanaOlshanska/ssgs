@@ -15,7 +15,7 @@ public class ArtifactListTest {
 
     @BeforeEach
     public void setUp() {
-        artifactList = new ArtifactListFile("MuseoTest");
+        artifactList = new ArtifactListFile("ArchivioTest");
     }
 
     @AfterEach
