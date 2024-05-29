@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "authentication"
+		},
+		{
+			"name": "museum",
+			"path": "museum"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
