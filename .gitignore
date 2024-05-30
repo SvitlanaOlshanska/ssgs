@@ -2,10 +2,6 @@
 *.class
 # Log file
 *.log
-# File di configurazione IDE
-# VS Code
-.vscode/
-
 # JAR file
 *.jar
 # File di configurazione specifici del tuo ambiente
