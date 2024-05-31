@@ -43,4 +43,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Push Docker image
-      run: docker push svitlanaolshanska/museum-image:latest
+      run: docker push svitlanaolshanska/museum:latest
