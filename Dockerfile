@@ -10,7 +10,7 @@ WORKDIR /app/authentication
 RUN mvn clean install
 
 WORKDIR /app/museum
-RUN mvn clean package
+RUN mvn clean install
 
 # Crea l'immagine finale con i file JAR dei progetti "authentication" e "museo"
 FROM openjdk:17-jdk-slim
@@ -19,7 +19,7 @@ WORKDIR /app
 COPY --from=build /app/authentication/target/authentication-1.0.0.jar /app/authentication.jar
 COPY --from=build /app/museum/target/museum-1.0.0.jar /app/museum.jar
 
-# Esponi le eventuali porte necessarie per "museo" 
+
 EXPOSE 4000
 
 # Avvia l'applicazione "museo"

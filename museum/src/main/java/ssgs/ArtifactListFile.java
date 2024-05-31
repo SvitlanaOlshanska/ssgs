@@ -31,7 +31,7 @@ public class ArtifactListFile implements ArtifactList {
 
     @Override
     public void add(Artifact artifact) {
-        validateArtifact(artifact); // Validazione dell'artefatto
+        validateArtifact(artifact);
         loadFromFile();
         for (Artifact existingArtifact : artifacts) {
             if (existingArtifact.getId().equals(artifact.getId())) {
@@ -71,7 +71,7 @@ public class ArtifactListFile implements ArtifactList {
 
     @Override
     public void update(Artifact artifact) {
-        validateArtifact(artifact); // Validazione dell'artefatto
+        validateArtifact(artifact);
         loadFromFile();
         boolean found = false;
         for (int i = 0; i < artifacts.size(); i++) {

@@ -2,17 +2,10 @@
 *.class
 # Log file
 *.log
-# JAR file
-*.jar
-# File di configurazione specifici del tuo ambiente
-*.sh
-
 # File temporanei
 *.tmp
 *.temp
-
 ### VS Code ###
 .vscode/
-
-### Mac OS ###
-.DS_Store
+# Maven specific files
+target/
